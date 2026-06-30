@@ -152,7 +152,6 @@ for yr, growth in yearly_growth_pct.dropna().items():
         x=f"{yr}-07-01", y=nav_history["nav"].max() * 0.95,
         text=f"{yr}: {growth:+.1f}% YoY",
         showarrow=False, font=dict(size=10, color="black"),
-        bgcolor="rgba(255,255,255,0.7)",
     )
 
 fig.update_layout(showlegend=False, height=600)

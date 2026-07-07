@@ -19,3 +19,5 @@ Thumbs.db
 # Large/raw data (uncomment if you don't want to commit raw CSVs to GitHub)
 # data/raw/*.csv
 # data/processed/*.csv
+
+*.db
